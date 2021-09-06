@@ -40,3 +40,7 @@ for the first message, do not asign the `send` to a variable (no `m = await ctx.
 Only use await `ctx.send()`. To edit the initial message use `ctx.edit()` instead of `m.edit()`, and for deleting `ctx.delete()` instead of `m.delete()`.
 
 Options (Arguments) are currently in the works.
+
+## Installation
+
+There is no `pip install` or any method of installation. You need to manually download the files and use them. Sorry :(.
