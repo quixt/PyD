@@ -41,6 +41,9 @@ Only use await `ctx.send()`. To edit the initial message use `ctx.edit()` instea
 
 Options (Arguments) are currently in the works.
 
+## General Wrapper Info
+There is no checks or rate-limiting. If you try to call `await m.add_reaction('not reaction :()` it won't throw an error. Rate-limiting must be added yourself.
+
 ## Installation
 
 There is no `pip install` or any method of installation. You need to manually download the files and use them. Sorry :(.
